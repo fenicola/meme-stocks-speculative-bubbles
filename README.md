@@ -77,6 +77,9 @@ Bubble episodes are identified as the periods during which the BSADF sequence ex
 
 The GME episode (January–May 2021) is the most prominent and prolonged, directly corresponding to the Reddit-driven short squeeze. AMC shows two brief episodes. BB presents a more recent episode spanning end-2022 to early 2023. NOK shows no statistically significant explosive dynamics throughout the sample.
 
+![BSADF sequences vs the 95% Monte Carlo critical value (black line): values above the line mark explosive episodes.](images/bsadf_sequences.png)
+*BSADF sequences vs the 95% Monte Carlo critical value (black line): values above the line mark explosive episodes.*
+
 ### 3. Portfolio Construction and Performance (2021–2025)
 Two portfolios are constructed on the four meme stocks over January 2021 – December 2025 and benchmarked against the Russell 2000:
 
@@ -107,6 +110,9 @@ Performance is evaluated using `quantstats` with `periods=12` (monthly data).
 | Russell 2000 | +3.72 | 20.03 | +0.281 | +0.436 | −28.06 |
 
 Both portfolios produce negative Sharpe and Sortino ratios across the full period, confirming that meme stocks destroyed value in the post-bubble phase. The EW portfolio captured the January 2021 spike (peak cumulative return ~+80%) but subsequently collapsed. The IV portfolio reduced volatility to 33.28% but at the cost of systematically overweighting the weakest stocks (BB, NOK, AMC), as the inverse-vol mechanism assigns higher weights to lower-volatility assets — precisely the ones that continued to deteriorate. The Russell 2000 is the only strategy to close the period in positive territory (+3.72% CAGR, −28.06% max drawdown).
+
+![Cumulative returns 2021–2025: equal-weight vs inverse-volatility meme-stock portfolios vs Russell 2000.](images/portfolio_cumulative_returns.png)
+*Cumulative returns 2021–2025: equal-weight vs inverse-volatility meme-stock portfolios vs Russell 2000.*
 
 ---
 
