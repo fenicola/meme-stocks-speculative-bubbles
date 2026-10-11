@@ -1,0 +1,20 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels
+yfinance
+quantstats
+scikit-learn
+PyPortfolioOpt
+plotly
+ipywidgets
+beautifulsoup4
+requests
+joblib
+financedatabase
+alpaca-py
+rpy2
+ipython
+fmfinance @ https://github.com/FraMedda/fmfinance/archive/refs/heads/main.zip

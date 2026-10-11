@@ -122,12 +122,7 @@ Both portfolios produce negative Sharpe and Sortino ratios across the full perio
 ## Requirements
 
 ```bash
-pip install numpy pandas matplotlib seaborn yfinance fmfinance quantstats \
-            statsmodels scipy scikit-learn joblib
-```
-
-```bash
-pip install https://github.com/FraMedda/fmfinance/archive/refs/heads/main.zip
+pip install -r requirements.txt
 ```
 
 Python 3.9+ recommended. Run in Jupyter Notebook or JupyterLab.
